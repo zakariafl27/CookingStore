@@ -2,16 +2,13 @@
     height: 34vw;
     margin: 30px;
     background-size: contain;
-
 }
 
 .header-contents{
-
     display: flex;
     flex-direction: row-reverse;
     gap: 1.5vw;
     /* border: solid ; */
-
 }
 
 .header-contents > div {
