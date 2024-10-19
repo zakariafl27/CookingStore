@@ -1,0 +1,18 @@
+
+  .Social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .SocialIcon img {
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .SocialIcon img:hover {
+    transform: scale(1.1);
+  }
+  
+  

@@ -1,7 +1,7 @@
-.categorie-item img{
+/* .categorie-item img{
     height: 160px;
     width: 160px;
-    /* border: solid; */
+    border: solid;
     display: inline;
 }
 
@@ -12,6 +12,17 @@
 .categorie-item img{
     width: 99.44px;
     height: 100px;
-}
+} */
+
+/* .CategoryCard:hover img:not(.blurred) {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Image img {
+    object-fit: cover;
+    border-radius: 20px;
+  } */
+  
 
 

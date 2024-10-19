@@ -59,9 +59,9 @@ export default function Header() {
                         left-[37px] top-[18px] 
                         flex items-center space-x-2"
         >
-          <button className="text-white text-sm font-semibold font-['Inter']">
+          <a href={'/recipes'} className="text-white text-sm font-semibold font-['Inter']">
             View Recipes
-          </button>
+          </a>
           <img className="w-6 h-6" src="/images/Play.png" alt="Play Icon" />
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function Header() {
             Hot Recipes
           </p>
           <img
-            className="absolute Image14 w-6 h-6 top-0 "
+            className="absolute Image14 w-6 h-6 top-0"
             src="/images/HotRecipes.png"
           />
         </div>
