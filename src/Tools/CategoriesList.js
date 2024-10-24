@@ -1,38 +1,33 @@
 export const CategoriesList = [
     { 
         name: 'Breakfast', 
-        colorFrom: 'slate-200', 
-        colorTo: 'slate-50', 
+        colorFrom: 'slate', 
+        colorTo: 'slate', 
         image: 'c1.png' 
     },
     { 
         name: 'Vegan', 
-        colorFrom: 'green-200', 
-        colorTo: 'green-50', 
+        color: 'green',  
         image: 'c2.png' 
     },
     { 
         name: 'Meat', 
-        colorFrom: 'red-200', 
-        colorTo: 'red-50', 
+        color: 'red',
         image: 'c3.png' 
     },
     { 
         name: 'Dessert', 
-        colorFrom: 'yellow-200', 
-        colorTo: 'yellow-50', 
+        color: 'yellow',
         image: 'c4.png' 
     },
     { 
         name: 'Lunch', 
-        colorFrom: 'zinc-200', 
-        colorTo: 'zinc-50', 
+        color: 'zinc', 
         image: 'c5.png' 
     },
     { 
         name: 'Chocolate', 
-        colorFrom: 'zinc-200', 
-        colorTo: 'zinc-50', 
+        color: 'zinc', 
         image: 'c6.png' 
     },
   ];

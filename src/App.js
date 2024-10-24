@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './Element/Nav';
-import Home from './HomePage/Home';
-import Blog from './Components/Blog';
-import Contact from './Components/Contact';
-import AboutUs from './Components/AboutUs';
-import Recipes from './RecipesPage/Recipes';
+import Nav from './Layouts/Nav';
+import Home from './Pages/Home';
+import Blog from './Pages/Blog';
+import Contact from './Pages/Contact';
+import AboutUs from './Pages/AboutUs';
+import Recipes from './Pages/Recipes';
 
 
 function App() {

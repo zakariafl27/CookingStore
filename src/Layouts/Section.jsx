@@ -1,16 +1,17 @@
 import React from "react";
 
-export default function Header() {
+export default function Section() {
   return (
     <div
       className="w-[1280px] h-[640px] relative mx-auto 
-                    bg-emerald-50 rounded-3xl"
+                    bg-emerald-50 rounded-[46px]"
     >
       {/* Image principale */}
       <div className="absolute w-[660px] h-full right-0">
         <img
-          className="w-[982px] h-[640px] object-cover"
+          className="w-[982px] h-[640px] rounded-[30px]"
           src="/images/a1.png"
+          alt="Tswira principale"
         />
       </div>
 
@@ -75,6 +76,7 @@ export default function Header() {
           <img
             className="absolute Image14 w-6 h-6 top-0"
             src="/images/HotRecipes.png"
+            alt="Hot Recipes Icon"
           />
         </div>
       </div>
@@ -83,6 +85,7 @@ export default function Header() {
         <img
           className="absolute w-[50px] h-[50px] left-0 top-0  rounded-full"
           src="/images/a1.png"
+          alt="Avatar"
         />
         <div className="absolute left-[63px] top-[3px]  text-black text-base font-bold font-['Inter']">
           John Smith
