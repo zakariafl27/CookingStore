@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <div className="w-full h-[193px] bg-white bottom-0 flex justify-between p-6">
+        <div className="w-[1300px] h-[193px] bg-white bottom-0 flex justify-between pt-6 border-b-2">
             <div className="flex flex-col">
                 <div className="flex">
                     <span className="text-black text-2xl font-['Lobster']">Foodieland</span>
@@ -14,11 +14,10 @@ export default function Footer() {
                     Lorem ipsum dolor sit amet, consectetuipisicing elit.
                 </p>
             </div>
-            <nav className="flex space-x-8">
+            <nav className="flex space-x-8 w-[200px] bottom-[-32px]">
                 <Link to="/recipes" className="text-black text-base font-medium font-['Inter']">Recipes</Link>
                 <Link to="/blog" className="text-black text-base font-medium font-['Inter']">Blog</Link>
                 <Link to="/contact" className="text-black text-base font-medium font-['Inter']">Contact</Link>
-                <Link to="/about" className="text-black text-base font-medium font-['Inter']">About us</Link>
             </nav>
         </div>
     );

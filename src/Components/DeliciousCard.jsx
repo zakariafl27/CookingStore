@@ -5,10 +5,9 @@ import { Delicious_List } from '../Tools/Recipes_List';
 export default function DeliciousCard() {
     
 
-
   return (
-    <div className="w-[1280px] top-[2170px] left-[120px] h-auto relative">
-      <div className="absolute left-[177px] top-0 
+<div>
+  <div className="absolute left-[177px] top-0 
                       text-black text-5xl font-semibold"
       >
         Try this delicious recipe
@@ -36,8 +35,10 @@ export default function DeliciousCard() {
         ))}
 
       </div>
+</div>
+      
 
-    </div>
+    
 
   );
 }

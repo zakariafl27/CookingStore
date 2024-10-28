@@ -15,8 +15,4 @@ export const Links = [
       path : '/contact',
       text : 'Contact',
     },
-    {
-      path : '/about',
-      text : 'About Us',
-    }
   ]

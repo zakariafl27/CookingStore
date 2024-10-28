@@ -6,7 +6,9 @@ export default function Card() {
 
 
   return (
-    <div className="w-[1280px] top-[270px] left-[120px] h-auto relative">
+    <div>
+
+    
       <div className="absolute left-[377px] top-0 
                       text-black text-5xl font-semibold"
       >
@@ -32,8 +34,8 @@ export default function Card() {
         ))}
 
       </div>
+      </div>
 
-    </div>
 
   );
 }

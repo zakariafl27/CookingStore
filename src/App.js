@@ -3,7 +3,7 @@ import Nav from './Layouts/Nav';
 import Home from './Pages/Home';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
-import AboutUs from './Pages/AboutUs';
+
 import Recipes from './Pages/Recipes';
 
 
@@ -16,7 +16,6 @@ function App() {
           <Route path="recipes" element={<Recipes />}/>
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="about" element={<AboutUs />} />
         </Route>
 
       </Routes>

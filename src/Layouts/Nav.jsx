@@ -10,8 +10,7 @@ export default function Nav() {
   return (
     <div>
 
-
-      <div className="relative w-[1279.96px] left-[145px] h-[30px] my-5 ">
+      <div className="relative w-[1279.96px] left-[135px] h-[30px] my-5 ">
 
         {/* Logo Foodieland */}
 
@@ -33,8 +32,9 @@ export default function Nav() {
 
       <hr />
       <div className="container mx-auto p-4">
-        <Outlet />
-      </div>
+  <Outlet />
+</div>
+
 
 
     </div>

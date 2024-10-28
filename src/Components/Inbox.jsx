@@ -3,7 +3,7 @@ import PicturesInbox from './PicturesInbox'
 
 export default function Inbox() {
     return (
-        <div className="relative w-[1280px] top-[3900px] left-[100px] h-[442px] ">
+        <div>
 
             <PicturesInbox/>
 
@@ -20,8 +20,9 @@ export default function Inbox() {
                 </div>
 
                 <div className="absolute w-[480px] h-20 left-[70px] top-[252px] bg-white rounded-3xl" />
-                <input type='email' placeholder='Your email address...' className="absolute left-[102px] top-[282px] text-black/40 
-                                text-sm font-medium font-['Inter']" />
+                <input type='email' placeholder='Your email address...' 
+                className="absolute left-[102px] top-[282px] text-black/40 
+                            outline-none text-sm font-medium font-['Inter']" />
                     
                 
 

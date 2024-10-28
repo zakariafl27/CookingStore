@@ -1,6 +1,9 @@
 // import ArticleCard from "../Components/ArticleCard";
 import ArticleListe from "../Components/ArticleListe";
-// import Inbox from "../Components/Inbox";
+import BlogPub from "../Components/BlogPub";
+import BlogTastyRecipes from "../Components/BlogTastyRecipes";
+import Inbox from "../Components/Inbox";
+import Footer from '../Layouts/Footer';
 
 
 export default function Blog() {
@@ -30,13 +33,29 @@ export default function Blog() {
                 </div>
 
             </div>
-            <ArticleListe />
-            {/* <div className="absolute inset-0 flex items-center justify-center">
-  <Inbox />
-</div> */}
+            <div className="relative right-[90px]">
+                <ArticleListe />
+            </div>
 
-            
+            <div className='absolute mx-5 top-[390px] left-[620px]'>
+                <BlogTastyRecipes />
+                <BlogPub />
+            </div>
+
+            <div className="relative w-[1280px] top-[600px] right-[160px] h-[442px]" >
+                <div className="absolute">
+                    <Inbox />
+                </div>
+            </div>
+
+            <div className='absolute left-[-165px] top-[2750px] border-t-2'>
+                <Footer />
+            </div>
+
+
+
+
         </div>
-        
+
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ArticleCard({ title, description, author, date, image, authorImage }) {
   return (
     
-        <div className="relative right-[250px] w-[840px] top-[400px] h-[200px]">
+        <div className="relative right-[150px] w-[840px] top-[400px] h-[200px]">
           <div className="absolute w-[290px] h-[200px] ">
             <img className="gap-y-4 w-[290px] h-[250px] rounded-[20px] top-[-20px]" 
                  src={`BlogImages/ArticleImage/${image}`}
@@ -28,7 +28,7 @@ export default function ArticleCard({ title, description, author, date, image, a
                 <div className="text-black text-base font-bold font-['Inter']">{author}</div>
               </div>
             </div>
-            <div className="absolute text-black/60 text-sm font-medium left-[207px] top-[146px]">{date}</div>
+            <div className="absolute text-black/60 text-sm font-medium left-[207px] top-[130px]">{date}</div>
           </div>
         </div>
       );
